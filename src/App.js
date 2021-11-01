@@ -12,11 +12,22 @@ function App() {
         <Grid item xs={12} md={6}>
           <ul className="networking">
             <li>PiHole</li>
-            <li>PiAlert</li>
+            <li>PfSense</li>
           </ul>
         </Grid>
         <Grid item xs={12} md={6}>
-          <p>Hello World</p>
+          <ul className="monitoring">
+            <li>PiAlert</li>
+            <li>NetData</li>
+            <li>SmokePing</li>
+            <li>Portainer</li>
+          </ul>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <ul className="uncategorized">
+            <li>Pterodactyl</li>
+            <li>Jellyfin</li>
+          </ul>
         </Grid>
       </Grid>
     </div>
